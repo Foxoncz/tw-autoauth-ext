@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="7.2.1" name="AutoAuth" packageVersion="1.0.0" vendor="Foxon.cz">
+            <JarResources>
+                <FileResource description="" file="autoauth.jar" type="JAR"/>
+            </JarResources>
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <Authenticators>
+        <Authenticator aspect.isEditableExtensionObject="true" className="cz.foxon.auth.AutoAuth" description="Provides automatic login for selected user." enabled="false" name="AutoAuth" priority="1" requiresChallenge="false" supportsSession="false"/>
+    </Authenticators>
+</Entities>
